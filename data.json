@@ -1,0 +1,26 @@
+ [
+{
+	"title" : "This portfolio",
+	"image" : "img/portfolio.jpg",
+	"tags" : ["HTML5", "CSS3", "RWD - media queries", "jQuery", "Json and Ajax"],
+	"description" : " this own compact presentational website itself"
+} ,
+{
+	"title" : "A costum Webshop",
+	"image" : "img/soon.jpg",
+	"tags" : ["HTML5", "CSS3", "Symfony2", "PHP", "MySQL"],
+	"description" : "a course project"
+},
+{
+	"title" : "Admin panel",
+	"image" : "img/soon.jpg",
+	"tags" : ["HTML5", "CSS3", "Bootstrap"],
+	"description" : "a course project"
+},
+{
+	"title" : "Final project",
+	"image" : "img/soon.jpg",
+	"tags" : ["still 2 decide"],
+	"description" : "probably a dating app"
+}
+]

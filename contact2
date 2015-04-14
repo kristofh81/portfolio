@@ -1,0 +1,32 @@
+@extends('layout.main')
+
+	@section('content')
+
+			<div class="content">
+
+			<article id="contact-form">
+			<p>Please fill out this form,
+			I will be happy to respond asap.
+			Thanks for your interest!</p>
+			<form id="contactform" action="mailto:k-h@hotmail>com" method="post" enctype="text/plain">
+				Name :
+				<br>
+				 <input type="text" name="naam_verzender" required>
+				 <br>
+				e-mail :
+				<br>
+				<input type="text" name="email_verzender" required>
+				<br>
+				Message :
+				<br>
+				<textarea id="textareaform" input type="text" name="inhoud_bericht" placeholder="Brevity is the soul of Wit"></textarea><br>
+				<input type="submit" value="Send">
+				<input type="reset" value="Clear">
+	
+			</article>	
+				<br>	
+				<br>
+
+			</div>	
+
+	@stop
